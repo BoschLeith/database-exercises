@@ -12,7 +12,7 @@ VALUES ('Michael Jackson', 'Thriller', '1982', '48.9', 'Pop, post-disco, funk, r
        ('Fleetwood Mac', 'Rumours', '1977', '27.9', 'Soft rock'),
        ('Shania Twain', 'Come On Over', '1997', '29.6', 'Country, pop'),
 
-       ('Grease', 'Grease: The Original Soundtrack from the Motion Picture', '1978', '14.4', 'Rock and roll'),
+       ('Grease', 'Grease: The Original Soundtrack', '1978', '14.4', 'Rock and roll'),
        ('Led Zeppelin', 'Led Zeppelin IV', '1971', '29.0', 'Hard rock, heavy metal, folk rock'),
        ('Michael Jackson', 'Bad', '1987', '20.7', 'Pop, rhythm and blues, funk, rock'),
        ('Alanis Morissette', 'Jagged Little Pill', '1995', '24.3', 'Alternative rock'),
