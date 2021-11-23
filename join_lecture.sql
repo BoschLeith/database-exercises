@@ -66,3 +66,27 @@ FROM users
 SELECT users.name AS user_name, roles.name AS role_name
 FROM users
          RIGHT JOIN roles ON users.role_id = roles.id;
+
+# Associative Tables and Joins
+
+USE employees;
+
+SELECT *
+FROM employees
+LIMIT 10;
+
+SELECT *
+FROM departments
+LIMIT 10;
+
+SELECT *
+FROM dept_emp
+LIMIT 10;
+
+SELECT CONCAT(e.first_name, ' ', e.last_name) AS full_name, d.dept_name
+FROM employees AS e
+         JOIN dept_emp AS de
+              ON de.emp_no = e.emp_no
+         JOIN departments AS d
+              ON d.dept_no = de.dept_no
+WHERE de.to_date = '9999-01-01' AND e.emp_no = 10001;
